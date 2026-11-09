@@ -16,20 +16,28 @@
             <section>
                 <h2>1. Dades personals</h2>
                 <label for="nom">Nom</label>
-                <input type="text" id="nom" name="nom" required>
+                <input type="text" id="nom" name="nom"  placeholder="Escriu el teu nom" required>
 
                 <label for="cognom">Cognom</label>
-                <input type="text" id="cognom" name="cognom" required>
+                <input type="text" id="cognom" name="cognom" placeholder="Escriu els cognoms" required>
 
                 <br>
 
                 <label for="mail">Correu electrònic</label>
-                <input type="email" id="mail" name="mail" required>
+                <input type="email" id="mail" name="mail"  placeholder="exemple@correu.com" required>
 
                 <br>
 
                 <label for="phone-number">Telèfon</label>
-                <input type="tel" id="phone-number" name="phone-number" min="9" max="9">
+                <input type="tel" id="phone-number" name="phone-number" minlength="9" maxlength="11" placeholder="600 000 000">
+
+                <label for="data-naixement">Data de naixement</label>
+                <input type="date" id="data-naixement" name="data-naixement" required>
+
+                <br>
+
+                <label for="password">Contrasenya</label>
+                <input type="password" id="password" name="password" placeholder="Introdueix una contrasenya" required>
 
             </section>
 
